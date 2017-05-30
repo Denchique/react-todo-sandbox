@@ -1,0 +1,22 @@
+*{
+margin: 0;
+padding: 0;
+}
+.my-input{
+	float:left;
+	width:300px;
+}
+
+
+
+.todo-list{
+	
+	&>li{
+		display:block;
+		line-height:30px;
+		height:30px;
+		margin:5px 0px;
+
+	}
+	list-style-type: none;
+}
